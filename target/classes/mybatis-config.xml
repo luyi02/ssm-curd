@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+  <settings>
+  	<setting name="mapUnderscoreToCamelCase" value="true"/>
+  </settings>
+  
+  <plugins>
+  	<plugin interceptor="com.github.pagehelper.PageInterceptor">
+  		<!-- 配置分页参数合理化，也就是不会到0页负页，或者超过总页数 -->
+  		<property name="reasonable" value="true"/>
+  	</plugin>
+  </plugins>
+  
+<!--   <typeAliases>
+  	<typeAlias type="com.luyi.bean"/>
+  </typeAliases> -->
+</configuration>
