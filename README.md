@@ -16,10 +16,11 @@
 ## 3.运行环境
 
  - maven的目录结构（搭建的是一个maven项目）
- - JavaEE2.5版本
+ - Dynamic Web2.5版本
  - jdk8版本
  - MySQL8.0.17版本
  - tomcat8.0.17版本
+ - eclise4.4.2版本
 
 ## 4.环境搭建--数据库环境的搭建
 
